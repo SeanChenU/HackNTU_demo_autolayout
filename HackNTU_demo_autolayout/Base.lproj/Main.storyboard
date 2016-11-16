@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +19,296 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：間距＋大小！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aBt-Wx-YEJ">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ntk-Pe-4wb">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="dHf-eE-owL"/>
+                                    <constraint firstAttribute="width" constant="122" id="dv3-b5-cOT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ntk-Pe-4wb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="74" id="IVi-o9-p0c"/>
+                            <constraint firstItem="ntk-Pe-4wb" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="21" id="UMJ-gD-D8J"/>
+                            <constraint firstItem="aBt-Wx-YEJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="21" id="r1e-V7-TP9"/>
+                            <constraint firstItem="aBt-Wx-YEJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="vyd-GT-Gh2"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-23.199999999999999" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="kZo-Iv-hn8">
+            <objects>
+                <viewController id="j79-Qj-aGa" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QxR-6Z-egf"/>
+                        <viewControllerLayoutGuide type="bottom" id="yOx-v2-ULc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="1Xo-qg-Dc6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：超級置中＋大小！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0PO-IC-8or">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="exB-8H-8Er">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="EJm-ql-0GY"/>
+                                    <constraint firstAttribute="width" constant="122" id="PLs-Bn-5bH"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="exB-8H-8Er" firstAttribute="centerX" secondItem="1Xo-qg-Dc6" secondAttribute="centerX" id="J3x-q7-B4x"/>
+                            <constraint firstItem="exB-8H-8Er" firstAttribute="centerY" secondItem="1Xo-qg-Dc6" secondAttribute="centerY" id="MX6-MH-FJ7"/>
+                            <constraint firstItem="0PO-IC-8or" firstAttribute="centerX" secondItem="1Xo-qg-Dc6" secondAttribute="centerX" id="ZIZ-Gi-bmH"/>
+                            <constraint firstItem="0PO-IC-8or" firstAttribute="top" secondItem="QxR-6Z-egf" secondAttribute="bottom" constant="21" id="nsh-t9-Fhu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mD5-jy-2U8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="634" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="zYJ-b9-1cu">
+            <objects>
+                <viewController id="rP4-EE-s4t" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="67V-Kv-IXU"/>
+                        <viewControllerLayoutGuide type="bottom" id="DmZ-qy-555"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Hdd-A3-wcY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="基本：兩物件水平中垂線對齊＋大小！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Opl-D6-hcL">
+                                <frame key="frameInset" minX="42" minY="41" width="295" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="var-FP-4sI">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="V8a-ZN-m6j"/>
+                                    <constraint firstAttribute="height" constant="119" id="um2-2g-0p6"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wt9-N5-9UQ">
+                                <color key="backgroundColor" red="0.1333333333" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="Mfd-Tz-LcU"/>
+                                    <constraint firstAttribute="height" constant="119" id="NzS-DN-Ydp"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="var-FP-4sI" firstAttribute="centerX" secondItem="wt9-N5-9UQ" secondAttribute="centerX" id="0p6-s0-fUn"/>
+                            <constraint firstItem="Opl-D6-hcL" firstAttribute="top" secondItem="67V-Kv-IXU" secondAttribute="bottom" constant="21" id="Lor-dG-r9x"/>
+                            <constraint firstItem="Opl-D6-hcL" firstAttribute="centerX" secondItem="Hdd-A3-wcY" secondAttribute="centerX" id="QKT-S2-OWr"/>
+                            <constraint firstItem="var-FP-4sI" firstAttribute="top" secondItem="wt9-N5-9UQ" secondAttribute="bottom" constant="16" id="RFZ-br-E1o"/>
+                            <constraint firstItem="wt9-N5-9UQ" firstAttribute="top" secondItem="67V-Kv-IXU" secondAttribute="bottom" constant="186" id="elr-8c-3ui"/>
+                            <constraint firstItem="wt9-N5-9UQ" firstAttribute="centerX" secondItem="Hdd-A3-wcY" secondAttribute="centerX" id="f2g-mO-gnd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JM2-xZ-bMF" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1321" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="EGa-sb-ceD">
+            <objects>
+                <viewController id="ZD7-VV-L3W" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IJY-yo-fZJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="zOP-FA-YU1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="67e-iW-uBk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="基本：兩物件垂直中垂線對齊＋大小！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YJw-ob-htz">
+                                <frame key="frameInset" minX="42" minY="41" width="295" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="96b-yu-o8Z">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="KCU-x4-EVB"/>
+                                    <constraint firstAttribute="width" constant="122" id="qjj-tK-0ii"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="86G-55-pBN">
+                                <color key="backgroundColor" red="0.1333333333" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="8ul-Eb-reb"/>
+                                    <constraint firstAttribute="height" constant="119" id="hdA-uL-cTV"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="86G-55-pBN" firstAttribute="leading" secondItem="96b-yu-o8Z" secondAttribute="trailing" constant="8" id="2GV-Xn-vYE"/>
+                            <constraint firstItem="YJw-ob-htz" firstAttribute="centerX" secondItem="67e-iW-uBk" secondAttribute="centerX" id="2L1-Zw-9Qb"/>
+                            <constraint firstItem="96b-yu-o8Z" firstAttribute="centerY" secondItem="86G-55-pBN" secondAttribute="centerY" id="8Fd-CP-WQA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="86G-55-pBN" secondAttribute="trailing" constant="46" id="bk1-3h-Zjh"/>
+                            <constraint firstItem="YJw-ob-htz" firstAttribute="top" secondItem="IJY-yo-fZJ" secondAttribute="bottom" constant="21" id="tZS-Va-bhA"/>
+                            <constraint firstItem="86G-55-pBN" firstAttribute="centerY" secondItem="67e-iW-uBk" secondAttribute="centerY" id="teY-zp-DE5"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="svA-vF-Jpj" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1969" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7Kb-gF-DXc">
+            <objects>
+                <viewController id="WGh-oH-g1E" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ram-Uu-FDj"/>
+                        <viewControllerLayoutGuide type="bottom" id="yGZ-bM-f9e"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ooF-ho-h8h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：兩物件Leading對齊＋大小！" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ls-Jv-WTC">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rwe-o3-vam">
+                                <color key="backgroundColor" red="0.1333333333" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="4b1-sq-Gzp"/>
+                                    <constraint firstAttribute="height" constant="119" id="CTv-li-7qa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AEh-po-N5S">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="119" id="FFv-ht-zbZ"/>
+                                    <constraint firstAttribute="width" constant="122" id="JZg-bw-heh"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AEh-po-N5S" firstAttribute="top" secondItem="Rwe-o3-vam" secondAttribute="bottom" constant="16" id="Rfc-08-mju"/>
+                            <constraint firstItem="Rwe-o3-vam" firstAttribute="top" secondItem="3ls-Jv-WTC" secondAttribute="bottom" constant="52" id="jG2-Mr-Mfv"/>
+                            <constraint firstItem="AEh-po-N5S" firstAttribute="leading" secondItem="Rwe-o3-vam" secondAttribute="leading" id="oso-d0-V2N"/>
+                            <constraint firstItem="Rwe-o3-vam" firstAttribute="leading" secondItem="3ls-Jv-WTC" secondAttribute="leading" id="psl-Mx-OcF"/>
+                            <constraint firstItem="3ls-Jv-WTC" firstAttribute="centerX" secondItem="ooF-ho-h8h" secondAttribute="centerX" id="rBa-zA-eZO"/>
+                            <constraint firstItem="3ls-Jv-WTC" firstAttribute="top" secondItem="ram-Uu-FDj" secondAttribute="bottom" constant="21" id="xs8-lL-omd"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fE-zS-hq8" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2614" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tvj-UU-Yhx">
+            <objects>
+                <viewController id="zUn-Qy-ute" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UpM-8e-cqd"/>
+                        <viewControllerLayoutGuide type="bottom" id="GbC-Mq-1oC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Dt-vT-NNT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：兩物件等寬等高" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLx-WV-W8V">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pvc-14-QHO">
+                                <color key="backgroundColor" red="0.1333333333" green="0.79607843140000001" blue="0.50980392159999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="122" id="hQD-Pu-Zil"/>
+                                    <constraint firstAttribute="height" constant="119" id="rkf-Lf-lZD"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LnT-rN-rco">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="LnT-rN-rco" firstAttribute="width" secondItem="Pvc-14-QHO" secondAttribute="width" id="CSy-zz-xci"/>
+                            <constraint firstItem="gLx-WV-W8V" firstAttribute="top" secondItem="UpM-8e-cqd" secondAttribute="bottom" constant="21" id="Dkb-Wb-W5A"/>
+                            <constraint firstItem="Pvc-14-QHO" firstAttribute="leading" secondItem="gLx-WV-W8V" secondAttribute="leading" id="KLO-j1-Cwo"/>
+                            <constraint firstItem="Pvc-14-QHO" firstAttribute="top" secondItem="gLx-WV-W8V" secondAttribute="bottom" constant="52" id="Veb-PU-mox"/>
+                            <constraint firstItem="gLx-WV-W8V" firstAttribute="centerX" secondItem="4Dt-vT-NNT" secondAttribute="centerX" id="Zfg-U7-scn"/>
+                            <constraint firstItem="LnT-rN-rco" firstAttribute="leading" secondItem="Pvc-14-QHO" secondAttribute="leading" id="cZ4-bF-h6v"/>
+                            <constraint firstItem="LnT-rN-rco" firstAttribute="height" secondItem="Pvc-14-QHO" secondAttribute="height" id="gy3-RV-knv"/>
+                            <constraint firstItem="LnT-rN-rco" firstAttribute="top" secondItem="Pvc-14-QHO" secondAttribute="bottom" constant="16" id="iNt-Ep-bus"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ARM-tM-9WW" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3308" y="139"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8xh-gV-Gst">
+            <objects>
+                <viewController id="qyE-ro-7yx" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zM6-6I-8uq"/>
+                        <viewControllerLayoutGuide type="bottom" id="yWE-yf-vy1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6Kh-5p-XKr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：兩物件寬高等比例（Aspect Ratio）" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gOp-33-edy">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Mak-PV-kTL">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Mak-PV-kTL" secondAttribute="height" multiplier="100:100" id="DK7-ee-fnd"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="gOp-33-edy" firstAttribute="centerX" secondItem="6Kh-5p-XKr" secondAttribute="centerX" id="2YK-du-dlr"/>
+                            <constraint firstItem="gOp-33-edy" firstAttribute="top" secondItem="zM6-6I-8uq" secondAttribute="bottom" constant="21" id="64I-2S-pDb"/>
+                            <constraint firstItem="yWE-yf-vy1" firstAttribute="top" secondItem="Mak-PV-kTL" secondAttribute="bottom" constant="77" id="RaK-Tu-1IA"/>
+                            <constraint firstItem="Mak-PV-kTL" firstAttribute="leading" secondItem="6Kh-5p-XKr" secondAttribute="leadingMargin" constant="110" id="TfC-Uo-rUm"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Mak-PV-kTL" secondAttribute="trailing" constant="111" id="dQK-Nk-yrl"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bND-n5-Tgs" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4010" y="139"/>
         </scene>
     </scenes>
 </document>
