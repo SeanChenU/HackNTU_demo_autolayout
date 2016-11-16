@@ -310,5 +310,335 @@
             </objects>
             <point key="canvasLocation" x="4010" y="139"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="peg-az-h6f">
+            <objects>
+                <viewController id="zhr-9N-vSI" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ozT-3o-U6W"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z7U-gu-4hs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aww-Oy-1XM">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：兩物件連帶對齊中線" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SHa-mo-UWt">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Z9-SN-Fcd">
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oSR-8Y-yjt">
+                                        <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="KfJ-5i-jjd"/>
+                                            <constraint firstAttribute="width" constant="122" id="hrl-mn-Lyw"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pUE-oG-Drt">
+                                        <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="39" id="hS6-8s-SMH"/>
+                                            <constraint firstAttribute="width" constant="122" id="pJe-zm-U7b"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="pUE-oG-Drt" firstAttribute="leading" secondItem="oSR-8Y-yjt" secondAttribute="trailing" constant="14" id="6qF-fd-a0r"/>
+                                    <constraint firstAttribute="bottom" secondItem="oSR-8Y-yjt" secondAttribute="bottom" constant="20" id="9Eb-AK-MGg"/>
+                                    <constraint firstAttribute="trailing" secondItem="pUE-oG-Drt" secondAttribute="trailing" constant="8" id="EyZ-eK-uGa"/>
+                                    <constraint firstItem="oSR-8Y-yjt" firstAttribute="top" secondItem="4Z9-SN-Fcd" secondAttribute="top" constant="21" id="co2-c7-1CE"/>
+                                    <constraint firstItem="oSR-8Y-yjt" firstAttribute="leading" secondItem="4Z9-SN-Fcd" secondAttribute="leading" constant="8" id="j29-jP-yWK"/>
+                                    <constraint firstItem="pUE-oG-Drt" firstAttribute="top" secondItem="4Z9-SN-Fcd" secondAttribute="top" constant="21" id="n4R-gR-1aY"/>
+                                    <constraint firstAttribute="bottom" secondItem="pUE-oG-Drt" secondAttribute="bottom" constant="20" id="vVM-YJ-r3a"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="SHa-mo-UWt" firstAttribute="top" secondItem="ozT-3o-U6W" secondAttribute="bottom" constant="21" id="5ON-j4-CBy"/>
+                            <constraint firstItem="SHa-mo-UWt" firstAttribute="centerX" secondItem="aww-Oy-1XM" secondAttribute="centerX" id="8t6-P7-xta"/>
+                            <constraint firstItem="4Z9-SN-Fcd" firstAttribute="centerX" secondItem="SHa-mo-UWt" secondAttribute="centerX" id="Tq1-Vu-F9f"/>
+                            <constraint firstItem="4Z9-SN-Fcd" firstAttribute="top" secondItem="SHa-mo-UWt" secondAttribute="bottom" constant="42" id="gbw-sI-NxD"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8oa-1p-i3C" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4712.8000000000002" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="sGF-9I-bWL">
+            <objects>
+                <viewController id="q8i-cb-SFe" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="X9J-0Z-UJc"/>
+                        <viewControllerLayoutGuide type="bottom" id="8EQ-nm-pyu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dLS-DC-wlr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="基本：六宮格" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rvl-PS-Srx">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3vn-Ep-jWT">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="Ytm-bI-3q3"/>
+                                    <constraint firstAttribute="width" constant="304" id="oTj-cq-wXa"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JHm-bM-Uya">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="HD3-R3-K9C"/>
+                                    <constraint firstAttribute="width" constant="96" id="TVY-cc-STV"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVt-Bx-svO">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="imE-x7-2Zk"/>
+                                    <constraint firstAttribute="height" constant="96" id="isz-qR-NuY"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lrU-yi-c3b">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="teu-VL-tDd"/>
+                                    <constraint firstAttribute="width" constant="96" id="vwY-38-ezJ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="72q-mZ-6Hu">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="YEn-6I-D49"/>
+                                    <constraint firstAttribute="width" constant="96" id="ri7-GI-gnP"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iu6-VS-lcV">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="96" id="8Bw-4h-aqf"/>
+                                    <constraint firstAttribute="width" constant="96" id="D41-EH-fG1"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BHf-DU-L69">
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="96" id="0dO-qw-3Uo"/>
+                                    <constraint firstAttribute="height" constant="96" id="jMK-WS-ZVo"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="3vn-Ep-jWT" firstAttribute="top" secondItem="rvl-PS-Srx" secondAttribute="bottom" constant="33" id="05Y-yI-5e3"/>
+                            <constraint firstItem="iu6-VS-lcV" firstAttribute="centerX" secondItem="NVt-Bx-svO" secondAttribute="centerX" id="0WI-JY-oBv"/>
+                            <constraint firstItem="JHm-bM-Uya" firstAttribute="top" secondItem="3vn-Ep-jWT" secondAttribute="bottom" constant="13" id="4SB-fK-6a8"/>
+                            <constraint firstItem="NVt-Bx-svO" firstAttribute="centerX" secondItem="3vn-Ep-jWT" secondAttribute="centerX" id="Gw2-sw-DKc"/>
+                            <constraint firstItem="JHm-bM-Uya" firstAttribute="leading" secondItem="3vn-Ep-jWT" secondAttribute="leading" id="QnF-Ng-kdx"/>
+                            <constraint firstItem="72q-mZ-6Hu" firstAttribute="leading" secondItem="JHm-bM-Uya" secondAttribute="leading" id="WMW-g9-1UR"/>
+                            <constraint firstItem="BHf-DU-L69" firstAttribute="trailing" secondItem="lrU-yi-c3b" secondAttribute="trailing" id="ach-U9-rqm"/>
+                            <constraint firstItem="lrU-yi-c3b" firstAttribute="top" secondItem="3vn-Ep-jWT" secondAttribute="bottom" constant="13" id="dYs-7h-Ph8"/>
+                            <constraint firstItem="3vn-Ep-jWT" firstAttribute="centerX" secondItem="rvl-PS-Srx" secondAttribute="centerX" id="ey3-LA-3Gb"/>
+                            <constraint firstItem="72q-mZ-6Hu" firstAttribute="top" secondItem="JHm-bM-Uya" secondAttribute="bottom" constant="8" id="g0n-jR-FOa"/>
+                            <constraint firstItem="rvl-PS-Srx" firstAttribute="centerX" secondItem="dLS-DC-wlr" secondAttribute="centerX" id="hZk-56-MPS"/>
+                            <constraint firstItem="NVt-Bx-svO" firstAttribute="top" secondItem="3vn-Ep-jWT" secondAttribute="bottom" constant="13" id="iLv-pj-wxU"/>
+                            <constraint firstItem="iu6-VS-lcV" firstAttribute="top" secondItem="NVt-Bx-svO" secondAttribute="bottom" constant="8" id="mSf-ZI-4bg"/>
+                            <constraint firstItem="lrU-yi-c3b" firstAttribute="trailing" secondItem="3vn-Ep-jWT" secondAttribute="trailing" id="pwM-TV-OiS"/>
+                            <constraint firstItem="rvl-PS-Srx" firstAttribute="top" secondItem="X9J-0Z-UJc" secondAttribute="bottom" constant="21" id="rrC-UJ-EOh"/>
+                            <constraint firstItem="BHf-DU-L69" firstAttribute="top" secondItem="lrU-yi-c3b" secondAttribute="bottom" constant="8" id="sIR-1n-pwO"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jn2-Hf-5bV" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5404" y="138.98050974512745"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ewI-qx-ypq">
+            <objects>
+                <viewController id="bMu-T2-8cS" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XoD-nl-GiJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="NqO-kK-hMe"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="V2h-Ur-dgW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="55p-IO-vj1">
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="a" translatesAutoresizingMaskIntoConstraints="NO" id="mTg-9K-Kq5"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b" translatesAutoresizingMaskIntoConstraints="NO" id="vgt-N0-cYY"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="c" translatesAutoresizingMaskIntoConstraints="NO" id="4yt-Mw-OnC"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2BJ-z5-inA">
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d" translatesAutoresizingMaskIntoConstraints="NO" id="Ur1-X8-Upj"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="e" translatesAutoresizingMaskIntoConstraints="NO" id="9Bh-NW-Xr6"/>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="55p-IO-vj1" firstAttribute="centerX" secondItem="V2h-Ur-dgW" secondAttribute="centerX" id="AaT-VE-K4f"/>
+                            <constraint firstItem="55p-IO-vj1" firstAttribute="top" secondItem="XoD-nl-GiJ" secondAttribute="bottom" constant="43" id="Ysm-kb-dPf"/>
+                            <constraint firstItem="55p-IO-vj1" firstAttribute="leading" secondItem="V2h-Ur-dgW" secondAttribute="leadingMargin" id="iff-ga-Zgj"/>
+                            <constraint firstAttribute="bottom" secondItem="55p-IO-vj1" secondAttribute="bottom" constant="10" id="jxu-MY-RaT"/>
+                            <constraint firstItem="55p-IO-vj1" firstAttribute="trailing" secondItem="V2h-Ur-dgW" secondAttribute="trailingMargin" id="q6t-zu-UQ2"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MaC-Pn-AoQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6104.8000000000002" y="146.17691154422789"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="c0o-QI-7Bi">
+            <objects>
+                <viewController id="7aE-RZ-pi8" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ExQ-jv-QaP"/>
+                        <viewControllerLayoutGuide type="bottom" id="lcR-hR-xFU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tYc-Aj-av8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挑戰：九宮格" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mri-Eu-9xP">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DAY-cb-M29">
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="304" id="Rp7-Ao-p6I"/>
+                                    <constraint firstAttribute="height" constant="39" id="hV8-hn-5WQ"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SLO-ZC-M7C">
+                                <frame key="frameInset" minX="8" minY="147" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ICw-gu-boR">
+                                <frame key="frameInset" minX="112" minY="147" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UZT-Gz-ZYJ">
+                                <frame key="frameInset" minX="216" minY="147" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tFG-Wx-1jR">
+                                <frame key="frameInset" minX="8" minY="251" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Bc-hG-ly0">
+                                <frame key="frameInset" minX="112" minY="251" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cET-zU-1fJ">
+                                <frame key="frameInset" minX="216" minY="251" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="U3L-pF-jJi">
+                                <frame key="frameInset" minX="8" minY="355" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Fc6-uA-iOA">
+                                <frame key="frameInset" minX="112" minY="355" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zYY-kO-LuB">
+                                <frame key="frameInset" minX="216" minY="355" width="96" height="96"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.29411764709999999" green="0.65490196079999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="DAY-cb-M29" firstAttribute="centerX" secondItem="mri-Eu-9xP" secondAttribute="centerX" id="Qn7-j7-9pp"/>
+                            <constraint firstItem="mri-Eu-9xP" firstAttribute="centerX" secondItem="tYc-Aj-av8" secondAttribute="centerX" id="VJG-FJ-Wp5"/>
+                            <constraint firstItem="DAY-cb-M29" firstAttribute="top" secondItem="mri-Eu-9xP" secondAttribute="bottom" constant="33" id="iji-xb-ohi"/>
+                            <constraint firstItem="mri-Eu-9xP" firstAttribute="top" secondItem="ExQ-jv-QaP" secondAttribute="bottom" constant="21" id="p5p-7T-1i9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zRX-Wh-Q2Q" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5404" y="822"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xDf-Th-tlb">
+            <objects>
+                <viewController id="I8c-3c-Mmi" customClass="ViewController" customModule="HackNTU_demo_autolayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8Yn-Cm-fbx"/>
+                        <viewControllerLayoutGuide type="bottom" id="FJe-Et-xWy"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dyq-tv-9ga">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="挑戰：四物件連帶對齊中線" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCW-k6-PTF">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="H61-x2-B9g">
+                                <frame key="frameInset" minX="40" minY="110" width="68" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qFs-0o-idy">
+                                <frame key="frameInset" minX="116" minY="110" width="68" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iVr-7u-hbf">
+                                <frame key="frameInset" minX="192" minY="110" width="68" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ewk-ww-K2H">
+                                <frame key="frameInset" minX="268" minY="110" width="68" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.97647058959999999" green="0.27843138579999999" blue="0.32941177490000001" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RCW-k6-PTF" firstAttribute="top" secondItem="8Yn-Cm-fbx" secondAttribute="bottom" constant="21" id="Xmi-jX-4Z2"/>
+                            <constraint firstItem="RCW-k6-PTF" firstAttribute="centerX" secondItem="dyq-tv-9ga" secondAttribute="centerX" id="caR-Ey-VHK"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zWq-pt-Tg2" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4712.8000000000002" y="821.73913043478262"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="a" width="1000" height="563"/>
+        <image name="b" width="1000" height="667"/>
+        <image name="c" width="1200" height="550"/>
+        <image name="d" width="1000" height="667"/>
+        <image name="e" width="960" height="640"/>
+    </resources>
 </document>
